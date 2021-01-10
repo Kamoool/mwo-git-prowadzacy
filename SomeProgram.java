@@ -10,6 +10,9 @@ public class SomeProgram {
 		if(!fly){
 			rocket.start();
 		}
+		if(possibleCrash){
+			dont();	
+		}
 	}
 
 	public void manageTheSatellite() {
