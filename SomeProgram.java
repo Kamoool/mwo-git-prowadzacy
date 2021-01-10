@@ -6,5 +6,8 @@ public class SomeProgram {
 	
 	public void manageTheRockets(){
 		//TODO implement
+		if(!fly){
+			rocket.start();
+		}
 	}
 }
