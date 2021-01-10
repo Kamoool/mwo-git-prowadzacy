@@ -4,10 +4,15 @@ public class SomeProgram {
 	  System.out.println("We will be Git experts, soon.");
     }
 	
+
 	public void manageTheRockets(){
 		//TODO implement
 		if(!fly){
 			rocket.start();
 		}
+	}
+
+	public void manageTheSatellite() {
+    // TODO implement
 	}
 }
